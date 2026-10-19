@@ -1,0 +1,210 @@
+/* Mise en forme générale */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Navigation */
+nav {
+    background-color: #202c45;
+    color: white;
+    padding: 15px;
+    position: relative;
+}
+
+.logo {
+    display: inline-block;
+    margin: 5px 30px 5px 10px;
+    color: #ffb347;
+}
+
+.menu {
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline-block;
+    margin: 0 12px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.menu a:hover {
+    background-color: #ff7043;
+    border-radius: 5px;
+}
+
+/* Section accueil */
+header {
+    background-color: #ffe5d9;
+    text-align: center;
+    padding: 60px 20px;
+    position: relative;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+header p {
+    margin-bottom: 30px;
+}
+
+/* Boutons */
+.btn {
+    display: inline-block;
+    background-color: #ff7043;
+    color: white;
+    text-decoration: none;
+    padding: 12px 20px;
+    margin: 8px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    background-color: #d94f28;
+}
+
+/* Titres */
+.titre {
+    text-align: center;
+    margin: 35px 0 25px;
+    color: #202c45;
+}
+
+/* Boxes produits */
+.produit {
+    display: inline-block;
+    width: 25%;
+    margin: 3%;
+    padding: 15px;
+    background-color: white;
+    text-align: center;
+    vertical-align: top;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 3px 8px #ccc;
+    position: relative;
+}
+
+.produit img {
+    max-width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.produit h3 {
+    color: #202c45;
+    margin: 15px 0 10px;
+}
+
+.produit p {
+    color: #e85d35;
+    font-weight: bold;
+}
+
+.produit:hover {
+    box-shadow: 0 5px 15px #aaa;
+}
+
+/* Catégories */
+.categories {
+    width: 60%;
+    margin: 20px auto;
+    padding: 15px;
+    background-color: white;
+    border-left: 5px solid #ff7043;
+}
+
+.categories ul {
+    padding-left: 25px;
+}
+
+.categories li {
+    margin: 10px;
+}
+
+/* Tableau */
+table {
+    width: 80%;
+    margin: 20px auto 40px;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 14px;
+    text-align: center;
+}
+
+th {
+    background-color: #202c45;
+    color: white;
+}
+
+tr:hover {
+    background-color: #ffe5d9;
+}
+
+/* Formulaire */
+form {
+    width: 60%;
+    margin: 20px auto 40px;
+    padding: 25px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px #ccc;
+    position: relative;
+}
+
+label {
+    display: block;
+    margin: 12px 0 6px;
+    font-weight: bold;
+}
+
+input, select, textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    padding: 12px 20px;
+    margin: 20px auto 0;
+    background-color: #ff7043;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d94f28;
+}
+
+/* Pied de page */
+footer {
+    background-color: #202c45;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
